@@ -1,0 +1,48 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Printer Page Counter - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x1009 /fo"Release/Printer Page Counter.res" /d "NDEBUG" /d "_AFXDLL" "D:\Microsoft Visual Studio\MyProjects\Printer Page Counter\Printer Page Counter.rc"" 
+Creating temporary file "C:\DOCUME~1\Andre\LOCALS~1\Temp\RSP1F.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/Printer Page Counter.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Microsoft Visual Studio\MyProjects\Printer Page Counter\Printer Page Counter.cpp"
+"D:\Microsoft Visual Studio\MyProjects\Printer Page Counter\Printer Page CounterDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Andre\LOCALS~1\Temp\RSP1F.tmp" 
+Creating temporary file "C:\DOCUME~1\Andre\LOCALS~1\Temp\RSP20.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/Printer Page Counter.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Microsoft Visual Studio\MyProjects\Printer Page Counter\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Andre\LOCALS~1\Temp\RSP20.tmp" 
+Creating temporary file "C:\DOCUME~1\Andre\LOCALS~1\Temp\RSP21.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/Printer Page Counter.pdb" /machine:I386 /out:"Release/Printer Page Counter.exe" 
+".\Release\Printer Page Counter.obj"
+".\Release\Printer Page CounterDlg.obj"
+".\Release\StdAfx.obj"
+".\Release\Printer Page Counter.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\Andre\LOCALS~1\Temp\RSP21.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+Printer Page Counter.cpp
+Printer Page CounterDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+Printer Page Counter.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
